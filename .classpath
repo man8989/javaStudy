@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry excluding="ch7/PointTest.java|ch7/SuperTest.java|ch7/SuperTest2.java|ch7/CpationTvTest.java|ch7/DrawShape.java|ch7/PointTest2.java|ch7/FinalCardTest.java|ch7/TimeTest.java" kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
