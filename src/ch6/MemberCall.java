@@ -10,7 +10,7 @@ public class MemberCall {
 	
 	static void staticMethod1() {
 		System.out.println(cv);
-		//System.out.println(iv);	// 에러.
+//		System.out.println(iv);	// 에러.
 		MemberCall c = new MemberCall();
 		System.out.println(c.iv);
 	}
@@ -22,6 +22,7 @@ public class MemberCall {
 	
 	static void staticMethod2() {
 		staticMethod1();
+//		instanceMethod1();
 		MemberCall c = new MemberCall();
 		c.instanceMethod1();
 	}
@@ -30,10 +31,4 @@ public class MemberCall {
 		staticMethod1();
 		instanceMethod1();
 	}
-	
-/*	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}*/
-
 }
